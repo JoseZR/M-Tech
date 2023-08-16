@@ -63,7 +63,7 @@ export function Footer () {
         <div className='mb-5 menu-footer'>
           <a href='https://hfmexico.mx/aviso-de-privacidad/' target='_blank' rel='noreferrer' className='item-link'>Aviso de privacidad</a>|
           <a href='https://hfmexico.mx/contacto-deutsche-messe/' className='item-link'> Contacto</a>|
-          <a href='https://hfmexico.mx/aviso-de-privacidad/' className='item-link'>Administrador</a>
+          <a href='/MTech/PHP/login.php' className='item-link'>Administrador</a>
         </div>
       </Container>
 
