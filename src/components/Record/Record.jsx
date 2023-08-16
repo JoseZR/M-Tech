@@ -70,7 +70,7 @@ export function Record () {
       setMessages('Debe haber al menos un participante masculino y uno femenino.')
     } else {
       try {
-        const response = await fetch('http://localhost/MTech/backend/registrar.php', requestOptions)
+        const response = await fetch('https://hfmexico.mx/MTech/backend/registrar.php', requestOptions)
         const responseData = await response.json()
         if (responseData.status) {
           setMessages(responseData.message)
