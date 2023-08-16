@@ -6,8 +6,8 @@ export function Menu () {
     <>
       <Navbar expand='lg' className='menu py-4'>
         <Container>
-          <a href='https://hfmexico.mx' target='_blank' rel='noopener noreferrer'><img className='img-logos img-fluid w-100 mx-auto' src='../public/img/igeco_bn.webp' alt='igeco-mexico-logo' /></a>
-          <a href='https://hfmexico.mx' target='_blank' rel='noopener noreferrer'><img className='img-logos img-fluid w-100 mx-auto' src='../public/img/deutsche_messe_bn.webp' alt='deutsche-messe-logo' /></a>
+          <a href='https://hfmexico.mx' target='_blank' rel='noopener noreferrer'><img className='img-logos img-fluid w-100 mx-auto' src='/img/igeco_bn.webp' alt='igeco-mexico-logo' /></a>
+          <a href='https://hfmexico.mx' target='_blank' rel='noopener noreferrer'><img className='img-logos img-fluid w-100 mx-auto' src='/img/deutsche_messe_bn.webp' alt='deutsche-messe-logo' /></a>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Offcanvas id='responsive-navbar-nav' className='bg-dark' placement='end'>
             <Offcanvas.Header closeButton data-bs-theme='dark' />
