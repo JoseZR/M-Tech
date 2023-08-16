@@ -1,0 +1,21 @@
+.menu{
+    background: rgb(1,0,236);
+    background: linear-gradient(78deg, rgba(1,0,236,1) 0%, rgba(157,34,241,1) 78%, rgba(1,0,236,1) 100%);
+}
+
+.img-logos{
+    max-width: 140px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.options{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.options:hover{
+    color: rgb(245, 176, 240);
+    font-weight: 700;
+}

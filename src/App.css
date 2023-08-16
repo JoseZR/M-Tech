@@ -1,0 +1,7 @@
+.background{
+    background-color: black;
+    background-image: url('../public/img/fondocuadricula.webp');
+     /* background-size: cover;Ajusta el tamaño de la imagen al contenedor */
+     background-size: 90%;
+    background-repeat: repeat; /* Evita que la imagen se repita */
+}

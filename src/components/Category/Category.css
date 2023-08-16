@@ -1,0 +1,180 @@
+.link_pdf{
+    text-decoration: none;
+}
+
+.btn-container{
+  margin: 150px auto;
+    width: 650px;
+    height: 90px;
+}
+
+.text-convocatoria {
+  font-size: 40px;
+  font-weight: 700;
+  padding: 30px 10px 0px 10px;
+}
+
+.button-convocatoria {
+    /* Estilos base del botón */
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(151, 65, 252, 0.5) 0 15px 30px -5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    justify-content: center;
+    line-height: 1em;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.3s;
+    animation: changeGradient 10s infinite alternate;
+  }
+  .button-convocatoria:hover {
+    transform: scale(1.05); /* Escala ligeramente el botón en hover */
+    filter: brightness(1.1); /* Aumenta el brillo del botón en hover */
+    box-shadow: rgba(187, 132, 249, 0.87) 0 20px 40px -10px; /* Cambia la sombra en hover */
+  }
+  
+  @keyframes changeGradient {
+    0%, 100% {
+      background-image: linear-gradient(144deg, #0512c8, #5B42F3 50%, #2acdd8, #e92222);
+    }
+    70% {
+      background-image: linear-gradient(144deg, #09c4f8, #5B42F3 50%, #2a7ed8, #aa0aee);
+      filter: hue-rotate(30deg); /* Cambio de tonalidad en el medio de la animación */
+    }
+  }
+
+.title-category{
+    font-size: 50px;
+    font-weight: 700;
+    color: #FFFFFF;
+    text-shadow: 2px 10px 20px rgba(23, 3, 245, 0.952);
+}
+
+.categoria-hijo {
+    display: flex;
+    width: 950px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 20px 30px;
+    border: 3px solid rgb(0, 38, 255);
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.179);
+    backdrop-filter: blur(8px); /* Color de fondo transparente */
+    /* Desenfoque del fondo */
+  }
+
+  .categoria-nieto {
+    padding: 20px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: #aa0aee;
+    display: block;
+    justify-content: center;
+  }
+
+  .titulo-categoria {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    font-size: 35px;
+    margin: 0px 10 0px 0px 0px;
+  }
+
+  .info-categoria {
+    font-size: 20px;
+    width: auto;
+    padding: 5px 5px;
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+  }
+  /*boton reglamento por categoria */
+  .btn-reglamento-autonomo{
+    height: 90px;
+    width: auto;
+    border-radius: 10px;
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(144deg, #09c4f8, #5B42F3 50%, #aa0aee);
+  }
+
+  .btn-reglamento-autonomo:hover {
+    color: #1e015a;
+    border: 4px solid #ffffff;
+    background: rgb(2,232,246);
+    background: linear-gradient(105deg, rgba(2,232,246,1) 0%, rgba(52,245,239,1) 0%, rgba(54,61,248,1) 100%);
+    transition: all 0.65s;
+  }
+
+  /* * * * * * *  DISPOSITIVOS MOVILES * * * * * * * * */
+  @media  (max-width: 640px) {
+
+    .categoria-hijo{
+        padding: 20px 10px;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .text-convocatoria {
+        font-size: 25px;
+        font-weight: 700;
+        z-index: -1;
+        display: block;
+        padding: 30px 10px 0px 10px;
+        left: 100%;
+        right: -100%;
+    }
+
+    .titulo-categoria, .info-categoria{
+        text-align: center;
+    }
+    .position-img{order: -1;}
+
+    .categoria-nieto{
+        display: inline-block;
+        margin: 0px auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .categoria-img{
+        display: flex;
+        margin: 0px auto;
+    }
+
+    .btn-container{
+      margin: 100px 20px;
+      width: auto;
+      height: 85px;
+  }
+}
+/* * * * * * *  DISPOSITIVOS TABLETA * * * * * * * * */
+@media (min-width: 650px) and (max-width: 991.98px) {
+    .categoria-hijo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0px auto;
+        padding: 0px auto;
+        width: auto;
+        display: flex;
+        justify-content: center;
+    }
+    .categoria-img{
+        display: flex;
+        margin: 0px auto;
+    }
+
+}

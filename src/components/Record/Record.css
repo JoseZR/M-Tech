@@ -1,0 +1,201 @@
+.equipo-form {
+    height: 420px;
+    width: auto;
+    background: url('../../../public/img/equipo-01.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    margin: 0px auto;
+    align-items: center;
+}
+
+.title-form {
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0px auto;
+    text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.8);
+}
+
+.container-form {
+    display: inline-flex;
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-item {
+    padding: 0px 50px;
+}
+
+.hijo-1 {
+    margin: 0px auto;
+    background-image: linear-gradient(135deg, #210275 10%, #bd05ce 100%);
+}
+
+
+/* - - - - - - - - - SECCION DE FORMULARIO DE REGISTRO - - - - - - - - - -  */
+
+.registro {
+    width: auto;
+    height: auto;
+    display: flex;
+    padding: 0px auto;
+}
+
+.item-hijo-form-2 {
+    background-image: url(../img/equipo-01.webp);
+    width: 88%;
+    margin: 0px auto;
+    padding: 100px;
+    background-size: cover;
+    background-position: center;
+}
+
+.form-padre {
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: 40px auto;
+}
+
+
+.formularios{
+    display: flex;
+    justify-content: center;
+    margin: 25px auto; 
+    padding: 40px auto;
+
+}
+
+.hijo-1 {
+    width: auto;
+    height: auto;
+    margin: 0px auto;
+    background-image: linear-gradient(135deg, #210275 10%, #bd05ce 100%);
+}
+
+.hijo-2 {
+    width: auto;
+    height: auto;
+}
+
+.form-team {
+    width: 85%;
+    height: 650px;
+    padding: 80px 50px;
+    margin: 0px auto;
+    border: 3px solid rgb(44, 44, 45);
+    border-radius: 15px;
+}
+
+.part-form,
+.part-form2 {
+    margin: 0px 0px;
+    padding: 25px 15px;
+    background-color: black;
+    border: 3px solid rgb(0, 38, 255);
+    border-radius: 10px;
+}
+
+.part-form2 {
+    width: 80%;
+    height: auto;
+    margin: 25px 10px;
+}
+
+.check-RFC[type="text"]:enabled {
+    background-color: rgb(2, 250, 134);
+    /* Puedes ajustar el color de fondo según tus preferencias */
+}
+
+.linea {
+    width: 50px;
+    height: 1px;
+    background-color: rgb(255, 255, 255);
+}
+
+.hidden {
+    display: none;
+    /*permite ocultar o mostrar el campo de RFC*/
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    float: left;
+}
+
+.des_limit{
+    color: #ffffff;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.303);
+    backdrop-filter: blur(5px);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 80px auto 0px 0px;
+    padding: 90px auto;
+}
+
+.des_lim_list{list-style: none};
+
+.titulo-form {
+    text-shadow: 10px 4px 4px rgba(0, 0, 0, 0.8);
+}
+
+.container-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.btn-registrar{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 600px;
+    color: rgb(255, 255, 255);
+    width: 80%;
+    height: 80px;
+    border: none;
+    border-radius: 15px;
+    background: rgb(82,215,244);
+    background: linear-gradient(105deg, rgba(82,215,244,1) 0%, rgba(2,35,194,1) 100%);
+    margin: 0px auto;   
+}
+
+.btn-registrar:hover{
+    color: #210275;
+    background: rgb(48,251,191);
+    background: linear-gradient(105deg, rgba(48,251,191,1) 0%, rgba(0,224,18,1) 100%);    
+}
+
+@media (max-width: 767px)  {
+    .part-form2 {
+        width: auto;
+    }
+  }
+
+  .container-msj{
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    /* border: 2px solid rgb(0, 64, 255); */
+    height: 70px ;
+    width: auto;
+    margin: 12px auto ;
+  }
+
+  .msj-error, .msj-server{ 
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+  }
+
+  .msj-error{color: #f85555; }
+  .msj-server{ color: #71fa02;}

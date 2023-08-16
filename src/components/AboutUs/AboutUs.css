@@ -1,0 +1,49 @@
+.title-mtech{
+    font-size: 95px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+    text-shadow: 1px 7px 8px rgb(183, 6, 242);
+}
+
+.item-use{
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #fff;
+    border: 3px solid  rgb(255, 255, 255);
+    border-radius: 50px;
+}
+
+.topic-1{
+    background-image: linear-gradient(to right, rgba(201, 5, 126, 0.952), rgba(22, 2, 112, 0.938));
+}
+
+.topic-2{
+    background-image: linear-gradient(to right, rgba(5, 41, 201, 0.884), rgba(2, 112, 51, 0.979));
+}
+
+.topic-3{
+    background-image: linear-gradient(to right, rgba(201, 132, 5, 0.842), rgba(142, 4, 197, 0.842));
+}
+
+.title-bot{
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.cont-text-bot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgba(50, 49, 49, 0.618);
+    backdrop-filter: blur(3px);
+    box-shadow: rgba(151, 65, 252, 0.5) 0 3px 20px 3px;
+    border-radius: 50px;
+    font-size: 22px;
+}
+
+@media (max-width: 640px) {
+    .card-1{order: 2; }
+    .card-2{ order: 1;}
+}
