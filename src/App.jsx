@@ -6,7 +6,7 @@ import { StrategicAllies } from './components/StrategicAllies/StrategicAllies'
 import './App.css'
 import { Category } from './components/Category/Category'
 import { Dates } from './components/Dates/Dates'
-import { Record } from './components/Record/Record'
+// import { Record } from './components/Record/Record'
 
 function App () {
   return (
@@ -19,7 +19,7 @@ function App () {
         <Dates />
       </div>
       <div className='background'>
-        <Record />
+        {/* <Record /> */}
       </div>
       <StrategicAllies />
       <Footer />
