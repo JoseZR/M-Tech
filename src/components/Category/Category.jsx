@@ -5,7 +5,7 @@ export function Category () {
   return (
     <>
       <Container className='btn-container'>
-        <a className='link_pdf d-grid w-100 h-100' href='public\convocatorias\Convocatoria M-Tech 2023.pdf' target='_blank'>
+        <a className='link_pdf d-grid w-100 h-100' href='/MTech/convocatorias/Convocatoria M-Tech 2023.pdf' target='_blank'>
           <Button className='hoverEffect button-convocatoria' variant='primary' size='lg'>
             <span className='text-convocatoria'>Consulta la Convocatoria</span>
           </Button>
@@ -27,7 +27,7 @@ export function Category () {
                     denominada Dojo, para ganar se debe lograr que el robot oponente salga primero de la
                     zona de lucha
                   </p>
-                  <a href='public\convocatorias\Reglamento Sumo.pdf' target='_blank'>
+                  <a href='/MTech/convocatorias/Reglamento Sumo.pdf' target='_blank'>
                     <button className='btn-reglamento-autonomo'>REGLAMENTO SUMO AUTÓNOMO</button><br />
                   </a>
                 </div>
@@ -44,7 +44,7 @@ export function Category () {
                   <p className='info-categoria'>Desarrolla un proyecto robótico que optimice
                     actividades cotidianas o ayude a resolver problemáticas del mundo real
                   </p>
-                  <a href='public\convocatorias\Reglamento M-Tech Innovations.pdf' target='_blank'>
+                  <a href='/MTech/convocatorias/Reglamento M-Tech Innovations.pdf' target='_blank'>
                     <button className='btn-reglamento-autonomo'>REGLAMENTO INNOVATIONS</button>
                   </a>
                 </div>
@@ -56,7 +56,7 @@ export function Category () {
                     competencia con obstáculos, los robots deberán recorrer el camino simulando el
                     movimiento de un insecto
                   </p>
-                  <a href='public\convocatorias\Reglamento Rally Roboinsectos.pdf' target='_blank'>
+                  <a href='/MTech/convocatorias/Reglamento Rally Roboinsectos.pdf' target='_blank'>
                     <button className='btn-reglamento-autonomo'>REGLAMENTO RALLY</button><br />
                   </a>
                 </div>
