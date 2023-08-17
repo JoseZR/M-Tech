@@ -19,17 +19,17 @@ export function AboutUs () {
           </Col>
         </Row>
         <Row>
-          <Col xs={12} md={12} lg={12} className='text-center my-3' data-aos='fade-right' data-aos-delay='300' data-aos-duration='1000'>
+          <Col xs={12} md={12} lg={12} className='text-center my-3' data-aos='zoom-out' data-aos-delay='300' data-aos-duration='1500'>
             <p className='item-use topic-1 mx-2 my-4 p-4'>¿Te fascina la robótica?</p>
           </Col>
         </Row>
         <Row>
-          <Col xs={12} md={12} lg={12} className='text-center my-3' data-aos='fade-left' data-aos-duration='1000'>
+          <Col xs={12} md={12} lg={12} className='text-center my-3' data-aos='zoom-out' data-aos-duration='1500'>
             <p className='item-use topic-2 mx-2 my-4 p-4'>¿Te gustaría romper los límites de tu imaginación?</p>
           </Col>
         </Row>
         <Row>
-          <Col xs={12} md={12} lg={12} className='text-center my-3' data-aos='fade-right' data-aos-duration='1000'>
+          <Col xs={12} md={12} lg={12} className='text-center my-3' data-aos='zoom-out' data-aos-duration='1500'>
             <p className='item-use topic-3 mx-2 my-4 p-4'>¿Quieres demostrar el poder de tu robot en nuestros desafiantes retos?</p>
           </Col>
         </Row>

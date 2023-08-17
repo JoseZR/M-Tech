@@ -1,13 +1,15 @@
 import React from 'react'
 import { Navbar, Nav, Offcanvas, Container } from 'react-bootstrap'
+import logoIGECO from '../../../public/img/igeco_bn.webp'
+import logoDeutche from '../../../public/img/deutsche_messe_bn.webp'
 import './Menu.css'
 export function Menu () {
   return (
     <>
       <Navbar expand='lg' className='menu py-4'>
         <Container>
-          <a href='https://hfmexico.mx' target='_blank' rel='noopener noreferrer'><img className='img-logos img-fluid w-100 mx-auto' src='/MTech/img/igeco_bn.webp' alt='igeco-mexico-logo' /></a>
-          <a href='https://hfmexico.mx' target='_blank' rel='noopener noreferrer'><img className='img-logos img-fluid w-100 mx-auto' src='/MTech/img/deutsche_messe_bn.webp' alt='deutsche-messe-logo' /></a>
+          <a href='https://hfmexico.mx' target='_blank' rel='noopener noreferrer'><img className='img-logos img-fluid w-100 mx-auto' src={logoIGECO} alt='igeco-mexico-logo' /></a>
+          <a href='https://hfmexico.mx' target='_blank' rel='noopener noreferrer'><img className='img-logos img-fluid w-100 mx-auto' src={logoDeutche} alt='deutsche-messe-logo' /></a>
           <Navbar.Toggle aria-controls='responsive-navbar-nav' />
           <Navbar.Offcanvas id='responsive-navbar-nav' className='bg-dark' placement='end'>
             <Offcanvas.Header closeButton data-bs-theme='dark' />
