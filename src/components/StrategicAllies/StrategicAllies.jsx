@@ -5,7 +5,6 @@ import guanajuato from '../../../public/img/logos/seg_logo.webp'
 import steam from '../../../public/img/logos/steam_logo.webp'
 import andra from '../../../public/img/logos/andra_logo.webp'
 import ideaGto from '../../../public/img/logos/idea_gto.webp'
-import uniUpb from '../../../public/img/logos/uni_upb.webp'
 import uniUtg from '../../../public/img/logos/uni_utg.webp'
 import uniUpg from '../../../public/img/logos/uni_upg.webp'
 export function StrategicAllies () {
@@ -36,10 +35,7 @@ export function StrategicAllies () {
             <img className='w-100 logo-aliado' src={andra} alt='andrea' loading='lazy' />
           </Col>
         </Row>
-        <Row>
-          <Col sm={12} md={4} lg={4} className='p-2'>
-            <img className='w-100 logo-aliado' src={uniUpb} alt='' loading='lazy' />
-          </Col>
+        <Row className='justify-content-md-center'>
           <Col sm={12} md={4} lg={4} className='p-2'>
             <img className='w-100 logo-aliado' src={uniUtg} alt='' loading='lazy' />
           </Col>
