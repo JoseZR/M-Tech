@@ -71,7 +71,7 @@ export function Record () {
     } else {
       try {
         const response = await fetch('https://hfmexico.mx/MTech/backend/registrar.php', requestOptions)
-        // const response = await fetch('http://localhost/backend/registrar.php', requestOptions)//RUTA PARA PRUEBA LOCAL
+        // const response = await fetch('http://localhost/backend/registrar.php', requestOptions)// RUTA PARA PRUEBA LOCAL
         const responseData = await response.json()
         if (responseData.status) {
           setMessages(responseData.message)
