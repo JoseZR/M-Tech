@@ -71,21 +71,22 @@ export function Record () {
     } else {
       try {
         const response = await fetch('https://hfmexico.mx/MTech/backend/registrar.php', requestOptions)
+        // const response = await fetch('http://localhost/backend/registrar.php', requestOptions)//RUTA PARA PRUEBA LOCAL
         const responseData = await response.json()
         if (responseData.status) {
           setMessages(responseData.message)
+          document.getElementById('transactionForm').reset()
+          setCantidad(0)
         } else {
           setMessages(responseData.message)
         }
       } catch (error) {
-        // console.log(error)
+        console.log(error)
         setMessages('Lo siento no pudimos procesar la información intenta mas tarde.')
       }
-      document.getElementById('transactionForm').reset()
-      // setCantidad(0)
       setTimeout(() => {
         setMessages('')
-      }, '3000')
+      }, '5000')
     }
   }
 
