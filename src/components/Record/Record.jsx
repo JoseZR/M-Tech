@@ -248,9 +248,9 @@ export function Record () {
         <div className='text-center des_limit'>
           <p>Antes de registrar tu equipo, considera la siguiente información</p>
           <ul className='des_lim_list'>
-            <li>- Máximo 4 integrantes por equipo - </li>
-            <li> - El quipo debe de ser mixto - </li>
-            <li> - El equipo solo pude participar en una sola categoría - </li>
+            <li>- Máximo 4 integrantes por equipo (considerando a tu coach) - </li>
+            <li> - El equipo debe de ser mixto - </li>
+            <li> - El equipo sólo pude participar en una sola categoría y sede - </li>
           </ul>
         </div>
         <br /><br />
