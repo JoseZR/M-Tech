@@ -7,6 +7,7 @@ import andra from '../../../public/img/logos/andra_logo.webp'
 import ideaGto from '../../../public/img/logos/idea_gto.webp'
 import uniUtg from '../../../public/img/logos/uni_utg.webp'
 import uniUpg from '../../../public/img/logos/uni_upg.webp'
+import leon from '../../../public/img/logos/leon-logo.webp'
 export function StrategicAllies () {
   return (
     <>
@@ -22,6 +23,9 @@ export function StrategicAllies () {
           </Col>
           <Col sm={12} md={4} lg={4}>
             <img className='w-100 logo-aliado' src={guanajuato} alt='seg_logo' loading='lazy' />
+          </Col>
+          <Col sm={12} md={4} lg={4}>
+            <img className='w-100 logo-aliado' src={leon} alt='leon_logo' loading='lazy' />
           </Col>
         </Row>
         <Row>
