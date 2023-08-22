@@ -49,10 +49,10 @@ export function Footer () {
             <img src={contacto} alt='igeco-daniela-hernandez' className='img-fluid' />
           </Col>
           <Col xs={12} md={6} lg={4} className='py-4 tex-contacto'>
-            <br /><strong><h5>Daniela Hernández</h5></strong>
-            <p>Gerente de Relaciones Públicas</p>
-            <p><a href='mailto:daniela.hernandez@hfmexico.mx' className='link text-center'>daniela.hernandez@hfmexico.mx</a></p>
-            <p>Tel: (55) 7028-3335 Ext. 804</p>
+            <br /><strong><h5>Leimy Jimenez</h5></strong>
+            <p>Especialista de Relaciones Públicas</p>
+            <p><a href='mailto:leimy.jimenez@hfmexico.mx' className='link text-center'>leimy.jimenez@hfmexico.mx</a></p>
+            <p>Tel: +52 55 2660 1388</p>
           </Col>
           <Col xs={12} md={2} lg={3} />
         </Row>
