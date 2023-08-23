@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Container } from 'react-bootstrap'
 import '../Record/Record.css'
+import Swal from 'sweetalert2'
 
 export function Record () {
   const [cantidad, setCantidad] = useState(0)
@@ -75,6 +76,13 @@ export function Record () {
         const responseData = await response.json()
         if (responseData.status) {
           setMessages(responseData.message)
+          Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: responseData.message,
+            showConfirmButton: false,
+            timer: 1500
+          })
           document.getElementById('transactionForm').reset()
           setCantidad(0)
         } else {
