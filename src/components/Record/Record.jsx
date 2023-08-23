@@ -86,7 +86,7 @@ export function Record () {
       }
       setTimeout(() => {
         setMessages('')
-      }, '5000')
+      }, '6000')
     }
   }
 
