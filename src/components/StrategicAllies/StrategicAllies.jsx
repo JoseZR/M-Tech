@@ -20,35 +20,35 @@ export function StrategicAllies () {
         </Row>
         <Row className='justify-content-md-center'>
           <Col sm={12} md={4} lg={4}>
-            <img className='w-100' src='/img/logos/explora_logo.webp' alt='explora' loading='lazy' />
+            <img className='w-100' src='/MTech/img/logos/explora_logo.webp' alt='explora' loading='lazy' />
           </Col>
           <Col sm={12} md={4} lg={4}>
-            <img className='w-100 logo-aliado' src='/img/logos/seg_logo.webp' alt='seg_logo' loading='lazy' />
+            <img className='w-100 logo-aliado' src='/MTech//img/logos/seg_logo.webp' alt='seg_logo' loading='lazy' />
           </Col>
           <Col sm={12} md={4} lg={4}>
-            <img className='w-100 logo-aliado' src='/img/logos/leon-logo.webp' alt='leon_logo' loading='lazy' />
+            <img className='w-100 logo-aliado' src='/MTech//img/logos/leon-logo.webp' alt='leon_logo' loading='lazy' />
           </Col>
         </Row>
         <Row>
           <Col sm={12} md={4} lg={4} className='p-2'>
-            <img className='w-100 logo-aliado' src='/img/logos/idea_gto.webp' alt='idea-guanajuato' loading='lazy' />
+            <img className='w-100 logo-aliado' src='/MTech/img/logos/idea_gto.webp' alt='idea-guanajuato' loading='lazy' />
           </Col>
           <Col sm={12} md={4} lg={4} className='p-2'>
-            <img className='w-100 logo-aliado' src='/img/logos/steam_logo.webp' alt='steam-logo' loading='lazy' />
+            <img className='w-100 logo-aliado' src='/MTech//img/logos/steam_logo.webp' alt='steam-logo' loading='lazy' />
           </Col>
           <Col sm={12} md={4} lg={4} className='p-2'>
-            <img className='w-100 logo-aliado' src='/img/logos/andra_logo.webp' alt='andrea' loading='lazy' />
+            <img className='w-100 logo-aliado' src='/MTech/img/logos/andra_logo.webp' alt='andrea' loading='lazy' />
           </Col>
         </Row>
         <Row className='justify-content-md-center'>
           <Col sm={12} md={4} lg={4} className='p-2'>
-            <img className='w-100 logo-aliado' src='/img/logos/uni_upb.webp' alt='universidad-bicentenario' loading='lazy' />
+            <img className='w-100 logo-aliado' src='/MTech/img/logos/uni_upb.webp' alt='universidad-bicentenario' loading='lazy' />
           </Col>
           <Col sm={12} md={4} lg={4} className='p-2'>
-            <img className='w-100 logo-aliado' src='/img/logos/uni_utg.webp' alt='universidad-tec-norte-gto' loading='lazy' />
+            <img className='w-100 logo-aliado' src='/MTech/img/logos/uni_utg.webp' alt='universidad-tec-norte-gto' loading='lazy' />
           </Col>
           <Col sm={12} md={4} lg={4} className='p-2'>
-            <img className='w-100 logo-aliado' src='/img/logos/uni_upg.webp' alt='universidad-guanajuato' loading='lazy' />
+            <img className='w-100 logo-aliado' src='/MTech/img/logos/uni_upg.webp' alt='universidad-guanajuato' loading='lazy' />
           </Col>
         </Row>
       </Container>
