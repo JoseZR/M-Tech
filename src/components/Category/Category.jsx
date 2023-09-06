@@ -11,7 +11,7 @@ export function Category () {
           </Button>
         </a>
       </Container>
-      <Container className='my-5'>
+      <Container>
         <div className='categorias-padre'>
           <Row className='justify-content-center'>
             <Col xs={12} md={12} lg={12}>

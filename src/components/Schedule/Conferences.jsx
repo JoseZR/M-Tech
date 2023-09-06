@@ -18,8 +18,6 @@ export function Schedule () {
               <strong>CRONOGRAMA DE ACTIVIDADES</strong>
             </h1>
           </center>
-          {/* <p className='text-light'>Descubre conocimientos inspiradores y perspectivas únicas en nuestro emocionante programa de actividades. <br /><strong style={{ color: '#ff0505' }}>¡No te pierdas la oportunidad de ampliar tus horizontes!</strong></p>
-          <h2 className='text-light fw-font mt-5 mb-5'>Lugar de encuentro</h2> */}
           <div className='program-dates mt-5'>
             <Nav className='menu-cronograma' variant='tabs' activeKey={activeTab}>
               <Nav.Item>
@@ -60,10 +58,10 @@ export function Schedule () {
             onSelect={(key) => handleTabSelect(key)}
           >
             <Tab eventKey='day1'>
-              <Container style={{ color: '#ffff' }}>
+              <Container>
                 <div className='container mt-3'>
-                  <div className='table-responsive'>
-                    <table className='table table-bordered'>
+                  <div className='table-responsive custom-table-container'>
+                    <table className='custom-table'>
                       <thead>
                         <tr>
                           <th />
@@ -124,8 +122,8 @@ export function Schedule () {
             <Tab eventKey='day2'>
               <Container style={{ color: '#ffff' }}>
                 <div className='container mt-3'>
-                  <div className='table-responsive'>
-                    <table className='table table-bordered'>
+                  <div className='table-responsive custom-table-container'>
+                    <table className='custom-table'>
                       <thead>
                         <tr>
                           <th />
@@ -186,8 +184,8 @@ export function Schedule () {
             <Tab eventKey='day3'>
               <Container style={{ color: '#ffff' }}>
                 <div className='container mt-3'>
-                  <div className='table-responsive'>
-                    <table className='table table-bordered'>
+                  <div className='table-responsive custom-table-container'>
+                    <table className='custom-table'>
                       <thead>
                         <tr>
                           <th />
@@ -248,8 +246,8 @@ export function Schedule () {
             <Tab eventKey='day4'>
               <Container style={{ color: '#ffff' }}>
                 <div className='container mt-3'>
-                  <div className='table-responsive'>
-                    <table className='table table-bordered'>
+                  <div className='table-responsive custom-table-container'>
+                    <table className='custom-table'>
                       <thead>
                         <tr>
                           <th />

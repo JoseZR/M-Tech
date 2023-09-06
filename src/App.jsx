@@ -17,10 +17,12 @@ function App () {
         <Slider />
         <AboutUs />
         <Category />
+      </div>
+      <div className='background-dos'>
         <Dates />
+        <Schedule />
       </div>
       <div className='background'>
-        <Schedule />
         <Record />
       </div>
       <StrategicAllies />

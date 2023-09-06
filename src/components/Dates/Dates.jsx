@@ -3,7 +3,7 @@ import '../Dates/Dates.css'
 
 export function Dates () {
   return (
-    <Container fluid className='container-sedes py-4'>
+    <Container fluid className='container-sedes py-0'>
       <div className='container-sedes-hijo'>
         <br /><br /><br />
         <center>
