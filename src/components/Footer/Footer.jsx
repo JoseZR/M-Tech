@@ -1,20 +1,20 @@
 import React from 'react'
-import { Container, Nav, Navbar, Row, Col } from 'react-bootstrap'
+import { Container, Navbar, Row, Col } from 'react-bootstrap'
 import './Footer.css'
 import igeco from '../../../public/img/igeco_bn.webp'
 import deutcheMesse from '../../../public/img/deutsche_messe_bn.webp'
 import mtech from '../../../public/img/mtech.webp'
 import contacto from '../../../public/img/contacto.webp'
+import logoGto from '../../../public/img/logo-gto.webp'
 export function Footer () {
   return (
     <>
       <Navbar expand='lg' className='menu my-2'>
-        <Container className=''>
-          <img className='img-logos img-fluid' src={igeco} />
-          <img className='img-logos img-fluid' src={deutcheMesse} />
-          <Nav className='justify-content-end flex-grow-1'>
-            <img className='img-logos-mtech img-fluid' src={mtech} alt='deutche-messe' />
-          </Nav>
+        <Container className='logos-gob'>
+          <img className='img-logos' src={igeco} alt='igeco-mexico' />
+          <img className='img-logos' src={deutcheMesse} alt='deutsche-messe' />
+          <img className='img-logos-mtech' style={{ width: '120px' }} src={logoGto} alt='guanajuato' />
+          <img className='img-logos-mtech' src={mtech} alt='mtech' />
         </Container>
       </Navbar>
       <Container>

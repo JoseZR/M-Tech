@@ -1,50 +1,20 @@
-.img-logos-mtech{
-    width: 90px;
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-    .img-logos-mtech{
-        margin-left: 300px;
-    }
-  }
-
-@media  (max-width: 640px) {
-    .img-logos{
-        width: 110px;
-    }
-    .img-logos-mtech{
-        width: 90px;
-        padding: 0px 15px;
-    }
-    .tex-contacto p, h5{
-        text-align: center;
-    }
-    .item-link{
-        text-align: center;
-    }
-    .menu-footer{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-  }
-
 /* iconos de redes sociales */
-  .footer-socialmedia svg {
+.footer-socialmedia svg {
     fill: #3e33dd;
     width: 30px;
     margin: 10px 20px;
 }
-.tarjeta{
+
+.tarjeta {
     border-top: 1px solid #727272;
     border-bottom: 1px solid #727272;
 }
 
-.footer-socialmedia svg:hover{
+.footer-socialmedia svg:hover {
     fill: #e1a224;
 }
- 
-.img-contacto{
+
+.img-contacto {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,5 +26,45 @@
     border-bottom: 1px solid #727272;
 }
 
-.item-link, .link{text-decoration: none;}
-.item-link{ margin: 0px 20px;}
+.item-link,
+.link {
+    text-decoration: none;
+}
+
+.item-link {
+    margin: 0px 20px;
+}
+
+.img-logos-mtech { width: 90px;}
+
+
+@media (max-width: 640px) {
+
+    .logos-gob {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px auto;
+        padding: 5px 20px;
+    }
+
+    .img-logos-mtech,.img-logos {
+        padding: 0px 15px;
+    }
+
+    .logo-gto{ width: 180px;}
+
+    .tex-contacto p, h5 {
+        text-align: center;
+    }
+
+    .item-link {
+        text-align: center;
+    }
+
+    .menu-footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
