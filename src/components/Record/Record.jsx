@@ -81,7 +81,7 @@ export function Record () {
             icon: 'success',
             title: responseData.message,
             showConfirmButton: false,
-            timer: 2000
+            timer: 2500
           })
           document.getElementById('transactionForm').reset()
           setCantidad(0)
