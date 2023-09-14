@@ -267,7 +267,7 @@ export function Record () {
           <div className='form-hijo hijo-2'>
             <form className='row g-3 mb-5 transactionForm' id='transactionForm' onSubmit={handleSubmit}>
               <div className='row g-3 part-form'>
-                <center><h3 className='title'>INFORMACIÓN DE EQUIPO</h3></center>
+                <center><h3 className='title'>INFORMACIÓN DEL EQUIPO</h3></center>
                 <div className='col-md-12'>
                   <label className='form-label text-light'>Nombre del equipo</label>
                   <input type='text' className='form-control' id='inputAddress' placeholder='Nombra a tu equipo de forma original' required name='nombreEquipo' />
