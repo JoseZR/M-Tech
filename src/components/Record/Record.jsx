@@ -77,11 +77,11 @@ export function Record () {
         if (responseData.status) {
           setMessages(responseData.message)
           Swal.fire({
-            position: 'top-end',
+            position: 'center',
             icon: 'success',
             title: responseData.message,
             showConfirmButton: false,
-            timer: 1500
+            timer: 2000
           })
           document.getElementById('transactionForm').reset()
           setCantidad(0)
