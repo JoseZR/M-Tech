@@ -79,9 +79,9 @@ export function Record () {
           Swal.fire({
             position: 'center',
             icon: 'success',
-            title: responseData.message,
+            title: responseData.message + 'REVISA TU CORREO ELECTRÓNICO PARA VALIDAR DATOS',
             showConfirmButton: false,
-            timer: 2500
+            timer: 3000
           })
           document.getElementById('transactionForm').reset()
           setCantidad(0)
