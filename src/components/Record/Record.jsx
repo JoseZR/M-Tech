@@ -313,7 +313,7 @@ export function Record () {
                   <select className='form-select' id='autoSizingSelect' required name='sedeParticipacion'>
                     <option value=''>Selecciona una opción...</option>
                     {/* <option value='silao-14-sep'>Silao - 14 SEP</option> */}
-                    {/* <option value='cortazar-19-sep'>Cortazar - 19 SEP</option> */}
+                    <option value='cortazar-19-sep'>Cortazar - 19 SEP</option>
                     <option value='dolores hidalgo-26-sep'>Dolores Hidalgo - 26 SEP</option>
                   </select>
                 </div>
