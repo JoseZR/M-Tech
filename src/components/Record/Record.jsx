@@ -227,27 +227,66 @@ export function Record () {
     }
   }
 
-  useEffect(() => {
-    const nivelAcademicoSelector = document.querySelector('#cbmNivenAcademico')
-    const categoriaSelector = document.querySelector('#comboCategoria')
+  // useEffect(() => {
+  //   const nivelAcademicoSelector = document.querySelector('#cbmNivenAcademico')
+  //   const categoriaSelector = document.querySelector('#comboCategoria')
 
-    const handleChange = () => {
-      const nivelAcademicoSeleccionado = nivelAcademicoSelector.value
-      categoriaSelector.disabled = false
+  //   const handleChange = () => {
+  //     const nivelAcademicoSeleccionado = nivelAcademicoSelector.value
+  //     categoriaSelector.disabled = false
 
-      if (nivelAcademicoSeleccionado === 'media superior') {
-        categoriaSelector.querySelector('option[value="Sumo Autonomo"]').disabled = true
-      } else {
-        categoriaSelector.querySelectorAll('option').forEach(option => {
-          option.disabled = false
-        })
+  //     if (nivelAcademicoSeleccionado === 'media superior') {
+  //       categoriaSelector.querySelector('option[value="Sumo Autonomo"]').disabled = true
+  //     } else {
+  //       categoriaSelector.querySelectorAll('option').forEach(option => {
+  //         option.disabled = false
+  //       })
+  //     }
+  //   }
+  //   nivelAcademicoSelector.addEventListener('change', handleChange)
+  // })
+
+  // function handleNivelAcademicoChange () {
+  //   const nivelAcademicoSelector = document.getElementById('cbmNivenAcademico')
+  //   const categoriaSelector = document.getElementById('comboCategoria')
+  //   const nivelAcademicoSeleccionado = nivelAcademicoSelector.value
+
+  //   categoriaSelector.disabled = false // Habilita el combo de categoría por defecto
+
+  //   if (nivelAcademicoSeleccionado === 'media superior') {
+  //     // Si se selecciona "Media Superior", deshabilita la opción "Sumo Autónomo"
+  //     const optionSumoAutonomo = categoriaSelector.querySelector('option[value="Sumo Autonomo"]')
+  //     if (optionSumoAutonomo) {
+  //       optionSumoAutonomo.disabled = true
+  //     }
+  //   }
+  // }
+
+  function handleNivelAcademicoChange () {
+    const nivelAcademicoSelector = document.getElementById('cbmNivenAcademico')
+    const categoriaSelector = document.getElementById('comboCategoria')
+    const nivelAcademicoSeleccionado = nivelAcademicoSelector.value
+
+    categoriaSelector.disabled = false // Habilita el combo de categoría por defecto
+
+    if (nivelAcademicoSeleccionado === 'media superior') {
+      // Si se selecciona "Media Superior", deshabilita la opción "Sumo Autónomo"
+      const optionSumoAutonomo = categoriaSelector.querySelector('option[value="Sumo Autonomo"]')
+      if (optionSumoAutonomo) {
+        optionSumoAutonomo.disabled = true
+      }
+    } else if (nivelAcademicoSeleccionado === 'secundaria') {
+      // Si se selecciona "Secundaria", habilita la opción "Sumo Autónomo"
+      const optionSumoAutonomo = categoriaSelector.querySelector('option[value="Sumo Autonomo"]')
+      if (optionSumoAutonomo) {
+        optionSumoAutonomo.disabled = false
       }
     }
-
-    nivelAcademicoSelector.addEventListener('change', handleChange)
-  })
+  }
 
   function actualizarCategoria () {
+    const nivelAcademicoSelector = document.getElementById('cbmNivenAcademico')
+    const nivelAcademicoSeleccionado = nivelAcademicoSelector.value
     // Obtén una referencia a los elementos select
     const comboCategoria = document.getElementById('comboCategoria')
     const sedeParticipacion = document.getElementById('autoSizingSelect')
@@ -261,7 +300,7 @@ export function Record () {
     }
 
     // Si se selecciona la sede "Cortazar - 19 SEP", deshabilita la opción "Sumo Autónomo"
-    if (sedeSeleccionada === 'cortazar-19-sep') {
+    if ((sedeSeleccionada === 'cortazar-19-sep') || (nivelAcademicoSeleccionado === 'media superior')) {
       for (let i = 0; i < comboCategoria.options.length; i++) {
         if (comboCategoria.options[i].value === 'Sumo Autonomo') {
           comboCategoria.options[i].setAttribute('disabled', 'disabled')
@@ -313,10 +352,9 @@ export function Record () {
                   <label className='form-label text-light'>Municipio</label>
                   <input type='text' className='form-control' id='municipiosGTO' required name='municipio' />
                 </div>
-
                 <div className='col-md-4'>
                   <label className='form-label text-light'>Nivel Académico</label>
-                  <select className='form-select' id='cbmNivenAcademico' required name='nivelAcademico'>
+                  <select className='form-select' id='cbmNivenAcademico' required name='nivelAcademico' onChange={handleNivelAcademicoChange}>
                     <option value=''>Selecciona una opción...</option>
                     <option value='secundaria'>Secundaria</option>
                     <option value='media superior'>Media Superior</option>
