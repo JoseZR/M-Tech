@@ -247,6 +247,29 @@ export function Record () {
     nivelAcademicoSelector.addEventListener('change', handleChange)
   })
 
+  function actualizarCategoria () {
+    // Obtén una referencia a los elementos select
+    const comboCategoria = document.getElementById('comboCategoria')
+    const sedeParticipacion = document.getElementById('autoSizingSelect')
+
+    // Obtén el valor seleccionado en el combo de sede de participación
+    const sedeSeleccionada = sedeParticipacion.value
+
+    // Habilita todas las opciones en el combo de categoría
+    for (let i = 0; i < comboCategoria.options.length; i++) {
+      comboCategoria.options[i].removeAttribute('disabled')
+    }
+
+    // Si se selecciona la sede "Cortazar - 19 SEP", deshabilita la opción "Sumo Autónomo"
+    if (sedeSeleccionada === 'cortazar-19-sep') {
+      for (let i = 0; i < comboCategoria.options.length; i++) {
+        if (comboCategoria.options[i].value === 'Sumo Autonomo') {
+          comboCategoria.options[i].setAttribute('disabled', 'disabled')
+        }
+      }
+    }
+  }
+
   return (
     <>
       <div className='equipo-form'>
@@ -300,21 +323,21 @@ export function Record () {
                   </select>
                 </div>
                 <div className='col-md-4'>
+                  <label className='form-label text-light'>Sede de particiación</label>
+                  <select className='form-select' id='autoSizingSelect' required name='sedeParticipacion' onChange={actualizarCategoria}>
+                    <option value=''>Selecciona una opción...</option>
+                    {/* <option value='silao-14-sep'>Silao - 14 SEP</option> */}
+                    <option value='cortazar-19-sep'>Cortazar - 19 SEP</option>
+                    <option value='dolores hidalgo-26-sep'>Dolores Hidalgo - 26 SEP</option>
+                  </select>
+                </div>
+                <div className='col-md-4'>
                   <label className='form-label text-light'>Categoría</label>
                   <select className='form-select' id='comboCategoria' required name='categoria' onChange={mostrarTextArea}>
                     <option value=''>Selecciona una categoría...</option>
                     <option value='Sumo Autonomo'>Sumo Autónomo</option>
                     <option value='MTech Innovation'>M-Tech Innovations</option>
                     <option value='Rally Roboinsectos'>Rally de Roboinsectos</option>
-                  </select>
-                </div>
-                <div className='col-md-4'>
-                  <label className='form-label text-light'>Sede de particiación</label>
-                  <select className='form-select' id='autoSizingSelect' required name='sedeParticipacion'>
-                    <option value=''>Selecciona una opción...</option>
-                    {/* <option value='silao-14-sep'>Silao - 14 SEP</option> */}
-                    <option value='cortazar-19-sep'>Cortazar - 19 SEP</option>
-                    <option value='dolores hidalgo-26-sep'>Dolores Hidalgo - 26 SEP</option>
                   </select>
                 </div>
                 <div className='col-md-8'>
