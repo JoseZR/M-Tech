@@ -244,7 +244,7 @@ export function Record () {
       // Si se selecciona "Secundaria", habilita la opción "Sumo Autónomo"
       const optionSumoAutonomo = categoriaSelector.querySelector('option[value="Sumo Autonomo"]')
       if (optionSumoAutonomo) {
-        optionSumoAutonomo.disabled = false
+        optionSumoAutonomo.disabled = true
       }
     }
   }
