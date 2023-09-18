@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { Container } from 'react-bootstrap'
 import '../Record/Record.css'
 import Swal from 'sweetalert2'
@@ -226,41 +226,6 @@ export function Record () {
       textareaElement.style.display = 'none'
     }
   }
-
-  // useEffect(() => {
-  //   const nivelAcademicoSelector = document.querySelector('#cbmNivenAcademico')
-  //   const categoriaSelector = document.querySelector('#comboCategoria')
-
-  //   const handleChange = () => {
-  //     const nivelAcademicoSeleccionado = nivelAcademicoSelector.value
-  //     categoriaSelector.disabled = false
-
-  //     if (nivelAcademicoSeleccionado === 'media superior') {
-  //       categoriaSelector.querySelector('option[value="Sumo Autonomo"]').disabled = true
-  //     } else {
-  //       categoriaSelector.querySelectorAll('option').forEach(option => {
-  //         option.disabled = false
-  //       })
-  //     }
-  //   }
-  //   nivelAcademicoSelector.addEventListener('change', handleChange)
-  // })
-
-  // function handleNivelAcademicoChange () {
-  //   const nivelAcademicoSelector = document.getElementById('cbmNivenAcademico')
-  //   const categoriaSelector = document.getElementById('comboCategoria')
-  //   const nivelAcademicoSeleccionado = nivelAcademicoSelector.value
-
-  //   categoriaSelector.disabled = false // Habilita el combo de categoría por defecto
-
-  //   if (nivelAcademicoSeleccionado === 'media superior') {
-  //     // Si se selecciona "Media Superior", deshabilita la opción "Sumo Autónomo"
-  //     const optionSumoAutonomo = categoriaSelector.querySelector('option[value="Sumo Autonomo"]')
-  //     if (optionSumoAutonomo) {
-  //       optionSumoAutonomo.disabled = true
-  //     }
-  //   }
-  // }
 
   function handleNivelAcademicoChange () {
     const nivelAcademicoSelector = document.getElementById('cbmNivenAcademico')
