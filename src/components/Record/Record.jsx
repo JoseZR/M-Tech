@@ -241,7 +241,7 @@ export function Record () {
         optionSumoAutonomo.disabled = true
       }
     } else if (nivelAcademicoSeleccionado === 'secundaria') {
-      // Si se selecciona "Secundaria", habilita la opción "Sumo Autónomo"
+      // Si se selecciona "Secundaria", deshabilita la opción "Sumo Autónomo"
       const optionSumoAutonomo = categoriaSelector.querySelector('option[value="Sumo Autonomo"]')
       if (optionSumoAutonomo) {
         optionSumoAutonomo.disabled = true
