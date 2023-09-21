@@ -338,7 +338,7 @@ export function Record () {
                   <label className='form-label text-light'>Categoría</label>
                   <select className='form-select' id='comboCategoria' required name='categoria' onChange={mostrarTextArea}>
                     <option value=''>Selecciona una categoría...</option>
-                    <option value='Sumo Autonomo'>Sumo Autónomo</option>
+                    {/* <option value='Sumo Autonomo'>Sumo Autónomo</option> */}
                     <option value='MTech Innovation'>M-Tech Innovations</option>
                     <option value='Rally Roboinsectos'>Rally de Roboinsectos</option>
                   </select>
