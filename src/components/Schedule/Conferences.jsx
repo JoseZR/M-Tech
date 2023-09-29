@@ -3,7 +3,7 @@ import { Container, Nav, Tab, Tabs } from 'react-bootstrap'
 import './Program.css'
 
 export function Schedule () {
-  const [activeTab, setActiveTab] = useState('day1')
+  const [activeTab, setActiveTab] = useState('day4')
 
   const handleTabSelect = (key) => {
     setActiveTab(key)
@@ -20,7 +20,7 @@ export function Schedule () {
           </center>
           <div className='program-dates mt-5'>
             <Nav className='menu-cronograma' variant='tabs' activeKey={activeTab}>
-              <Nav.Item>
+              {/* <Nav.Item>
                 <Nav.Link eventKey='day1' onClick={() => handleTabSelect('day1')}>
                   <h4 className='text-light'>
                     <strong>SILAO</strong>
@@ -40,7 +40,7 @@ export function Schedule () {
                     <strong>DOLORES HIDALGO</strong>
                   </h4>
                 </Nav.Link>
-              </Nav.Item>
+              </Nav.Item> */}
               <Nav.Item>
                 <Nav.Link eventKey='day4' onClick={() => handleTabSelect('day4')}>
                   <h4 className='text-light'>
@@ -57,7 +57,7 @@ export function Schedule () {
             className='mb-3'
             onSelect={(key) => handleTabSelect(key)}
           >
-            <Tab eventKey='day1'>
+            {/* <Tab eventKey='day1'>
               <Container>
                 <div className='container mt-3'>
                   <div className='table-responsive custom-table-container'>
@@ -242,7 +242,7 @@ export function Schedule () {
                   </div>
                 </div>
               </Container>
-            </Tab>
+            </Tab> */}
             <Tab eventKey='day4'>
               <Container style={{ color: '#ffff' }}>
                 <div className='container mt-3'>
@@ -281,13 +281,13 @@ export function Schedule () {
                         </tr>
                         <tr>
                           <td>Inauguración M-Tech</td>
-                          <td colSpan='3' className='text-center'>10:30 a.m - 11:00 a.m</td>
+                          <td colSpan='3' className='text-center'>10:15 a.m - 10:45 a.m</td>
                         </tr>
                         <tr>
                           <td>Inicio de Competencias</td>
-                          <td>11:00 a.m - 12:00 a.m</td>
-                          <td>11:00 a.m - 12:30 a.m</td>
-                          <td>12:00 a.m – 13:00 p.m</td>
+                          <td>10:50 a.m - 11:50 a.m</td>
+                          <td>10:50 a.m - 11:50 a.m</td>
+                          <td>11:55 a.m – 13:00 p.m</td>
                         </tr>
                         <tr>
                           <td>Pase a la Final</td>
