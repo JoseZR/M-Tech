@@ -7,7 +7,7 @@ import './App.css'
 import { Category } from './components/Category/Category'
 import { Dates } from './components/Dates/Dates'
 // import { Record } from './components/Record/Record'//formulario de registro
-import { Schedule } from './components/Schedule/Conferences'
+// import { Schedule } from './components/Schedule/Conferences'
 
 function App () {
   return (
@@ -20,7 +20,7 @@ function App () {
       </div>
       <div className='background-dos'>
         <Dates />
-        <Schedule />
+        {/* <Schedule /> */}
       </div>
       <div className='background'>
         {/* <Record /> */}

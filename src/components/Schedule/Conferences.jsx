@@ -20,7 +20,7 @@ export function Schedule () {
           </center>
           <div className='program-dates mt-5'>
             <Nav className='menu-cronograma' variant='tabs' activeKey={activeTab}>
-              {/* <Nav.Item>
+              <Nav.Item>
                 <Nav.Link eventKey='day1' onClick={() => handleTabSelect('day1')}>
                   <h4 className='text-light'>
                     <strong>SILAO</strong>
@@ -40,7 +40,7 @@ export function Schedule () {
                     <strong>DOLORES HIDALGO</strong>
                   </h4>
                 </Nav.Link>
-              </Nav.Item> */}
+              </Nav.Item>
               <Nav.Item>
                 <Nav.Link eventKey='day4' onClick={() => handleTabSelect('day4')}>
                   <h4 className='text-light'>
@@ -57,7 +57,7 @@ export function Schedule () {
             className='mb-3'
             onSelect={(key) => handleTabSelect(key)}
           >
-            {/* <Tab eventKey='day1'>
+            <Tab eventKey='day1'>
               <Container>
                 <div className='container mt-3'>
                   <div className='table-responsive custom-table-container'>
@@ -242,7 +242,7 @@ export function Schedule () {
                   </div>
                 </div>
               </Container>
-            </Tab> */}
+            </Tab>
             <Tab eventKey='day4'>
               <Container style={{ color: '#ffff' }}>
                 <div className='container mt-3'>
