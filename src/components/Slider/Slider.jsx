@@ -10,7 +10,7 @@ export function Slider () {
     <div className='position-relative'>
       <Carousel fade interval={null} controls={false}>
         <Carousel.Item>
-          <video className='w-100' controls src='/MTech/img/final_mtech_2023.mp4' poster='/MTech/img/posterVideoMTech2023.webp' loading='lazy' autoPlay muted playsInline />
+          <video className='w-100' controls src='/MTech/img/final_mtech_2023.mp4' poster='/MTech/img/posterVideoMTech2023.webp' loading='lazy' autoPlay muted playsInline loop />
         </Carousel.Item>
         <Carousel.Item>
           <img
