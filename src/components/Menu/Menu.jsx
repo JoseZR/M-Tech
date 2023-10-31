@@ -1,4 +1,3 @@
-import React from 'react'
 import { Navbar, Nav, Offcanvas, Container } from 'react-bootstrap'
 import logoIGECO from '../../../public/img/igeco_bn.webp'
 import logoDeutche from '../../../public/img/deutsche_messe_bn.webp'
@@ -15,7 +14,7 @@ export function Menu () {
             <Offcanvas.Header closeButton data-bs-theme='dark' />
             <Offcanvas.Body>
               <Nav className='justify-content-end flex-grow-1 pe-5'>
-                <Nav.Link className='options' href='https://hfmexico.mx/historia-deutsche-messe/' target='_blank'>¿QUIÉNES SOMOS?</Nav.Link>
+                <Nav.Link className='options' href='https://hfmexico.mx/about-igeco' target='_blank'>¿QUIÉNES SOMOS?</Nav.Link>
                 <Nav.Link className='options' href='https://hfmexico.mx' target='_blank'>NUESTROS EVENTOS</Nav.Link>
                 <Nav.Link className='options' href='https://hfmexico.mx/messe-events/' target='_blank'>MESSE EVENTS</Nav.Link>
               </Nav>

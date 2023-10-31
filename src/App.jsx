@@ -4,8 +4,9 @@ import { Slider } from './components/Slider/Slider'
 import { Menu } from './components/Menu/Menu'
 import { StrategicAllies } from './components/StrategicAllies/StrategicAllies'
 import './App.css'
-import { Category } from './components/Category/Category'
-import { Dates } from './components/Dates/Dates'
+import { GalleryPage } from './components/Gallery/GalleryPage'
+// import { Category } from './components/Category/Category'
+// import { Dates } from './components/Dates/Dates'
 // import { Record } from './components/Record/Record'//formulario de registro
 // import { Schedule } from './components/Schedule/Conferences'
 
@@ -16,15 +17,16 @@ function App () {
         <Menu />
         <Slider />
         <AboutUs />
-        <Category />
+        {/* <Category /> */}
       </div>
       <div className='background-dos'>
-        <Dates />
+        {/* <Dates /> */}
         {/* <Schedule /> */}
       </div>
       <div className='background'>
         {/* <Record /> */}
       </div>
+      <GalleryPage />
       <StrategicAllies />
       <Footer />
     </>
