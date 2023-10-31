@@ -61,6 +61,13 @@ export function AboutUs () {
             <img src={bot02} alt='igeco-daniela-hernandez' className='img-fluid' data-aos='fade-down' data-aos-duration='1000' />
           </Col>
         </Row>
+        <Row className='justify-content-center'>
+          <Col xs={12} lg={2} />
+          <Col xs={12} lg={8} className='text-center my-5 py-3' data-aos='zoom-in' data-aos-duration='1800'>
+            <img src='/MTech/img/resultados.webp' alt='mtech-resultados' className='img-resultados w-100' />
+          </Col>
+          <Col xs={12} lg={2} />
+        </Row>
       </Container>
     </Container>
   )
