@@ -9,7 +9,8 @@
 }
 
 .gallery-title{
-    color: #050872;
+    font-family: Franklin Gothic Medium,Arial Narrow,Arial,sans-serif;
+    color: rgb(1,31,60);
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
