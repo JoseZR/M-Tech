@@ -51,7 +51,7 @@ export function Footer () {
           <Col xs={12} md={6} lg={4} className='py-4 tex-contacto'>
             <br /><strong><h5>Leimy Jimenez</h5></strong>
             <p>Especialista de Relaciones Públicas</p>
-            <p><a href='mailto:leimy.jimenez@hfmexico.mx' className='link text-center'>leimy.jimenez@hfmexico.mx</a></p>
+            <p><a href='mailto:leimy.jimenez@igeco.mx' className='link text-center'>leimy.jimenez@igeco.mx</a></p>
             <p>Tel: +52 55 2660 1388</p>
           </Col>
           <Col xs={12} md={2} lg={3} />
