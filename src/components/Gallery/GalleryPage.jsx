@@ -10,7 +10,7 @@ export function GalleryPage () {
       <Container className='galleryPage mt-5'>
         <GalleryYear gallery={BestMoments} />
         <center>
-          <a href='gallery2023'>
+          <a href='/MTech/gallery2023'>
             <button class='btn-best-moments my-3'><span class='btn-best-moments-content'>VER GALERIA </span></button>
           </a>
         </center>
