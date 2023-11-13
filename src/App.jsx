@@ -1,33 +1,32 @@
-import { AboutUs } from './components/AboutUs/AboutUs'
-import { Footer } from './components/Footer/Footer'
-import { Slider } from './components/Slider/Slider'
 import { Menu } from './components/Menu/Menu'
-import { StrategicAllies } from './components/StrategicAllies/StrategicAllies'
 import './App.css'
-import { GalleryPage } from './components/Gallery/GalleryPage'
-// import { Category } from './components/Category/Category'
-// import { Dates } from './components/Dates/Dates'
-// import { Record } from './components/Record/Record'//formulario de registro
-// import { Schedule } from './components/Schedule/Conferences'
-
+import { Route, Routes } from 'react-router-dom'
+import { Home } from './components/Home/Home'
+import { Gallery2022 } from './components/Gallery/Gallery2022'
+import { Footer } from './components/Footer/Footer'
+import { Gallery2023 } from './components/Gallery/Gallery2023'
 function App () {
   return (
     <>
-      <div className='background'>
-        <Menu />
-        <Slider />
-        <AboutUs />
-        {/* <Category /> */}
-      </div>
-      <div className='background-dos'>
-        {/* <Dates /> */}
-        {/* <Schedule /> */}
-      </div>
-      <div className='background'>
-        {/* <Record /> */}
-      </div>
-      <GalleryPage />
-      <StrategicAllies />
+      <Menu />
+      <Routes>
+        <Route
+          path='/' element={
+            <>
+              <title>M-TECH</title>
+              <Home />
+            </>
+          }
+        />
+        <Route
+          path='gallery2022'
+          element={<Gallery2022 />}
+        />
+        <Route
+          path='gallery2023'
+          element={<Gallery2023 />}
+        />
+      </Routes>
       <Footer />
     </>
   )
