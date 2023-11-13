@@ -11,9 +11,9 @@ export function GalleryPage () {
       <Container className='galleryPage mt-5'>
         <GalleryYear gallery={BestMoments} />
         <center>
-          <Link to='/gallery2023' className='text-decoration-none'>
+          {/* <Link to='/gallery2023' className='text-decoration-none'>
             <button class='btn-best-moments my-3'><span class='btn-best-moments-content'>VER GALERIA</span></button>
-          </Link>
+          </Link> */}
         </center>
       </Container>
     </>
