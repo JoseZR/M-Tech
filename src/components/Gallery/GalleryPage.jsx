@@ -2,6 +2,7 @@ import { Container } from 'react-bootstrap'
 import { BestMoments } from './constans_gallery'
 import { GalleryYear } from './GalleryYear'
 import './GalleryPage.css'
+import { Link } from 'react-router-dom'
 
 export function GalleryPage () {
   return (
@@ -10,9 +11,9 @@ export function GalleryPage () {
       <Container className='galleryPage mt-5'>
         <GalleryYear gallery={BestMoments} />
         <center>
-          <a href='/MTech/gallery2023'>
-            <button class='btn-best-moments my-3'><span class='btn-best-moments-content'>VER GALERIA </span></button>
-          </a>
+          <Link to='/gallery2023' className='text-decoration-none'>
+            <button class='btn-best-moments my-3'><span class='btn-best-moments-content'>VER GALERIA</span></button>
+          </Link>
         </center>
       </Container>
     </>
