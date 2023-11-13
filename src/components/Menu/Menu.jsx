@@ -26,7 +26,7 @@ export function Menu () {
                   <NavDropdown.Item as={Link} to='gallery2023' onClick={handleClose}>EDICION 2023</NavDropdown.Item>
                   <NavDropdown.Item as={Link} to='gallery2022' onClick={handleClose}>EDICION 2022</NavDropdown.Item>
                 </NavDropdown>
-                <Nav.Link className='options' href='https://hfmexico.mx/about-igeco' target='_blank'>¿QUIÉNES SOMOS?</Nav.Link>
+                <Nav.Link className='options' href='https://igeco.mx/history' target='_blank'>¿QUIÉNES SOMOS?</Nav.Link>
                 <Nav.Link className='options' href='https://hfmexico.mx' target='_blank'>NUESTROS EVENTOS</Nav.Link>
                 <Nav.Link className='options' href='https://hfmexico.mx/messe-events/' target='_blank'>MESSE EVENTS</Nav.Link>
               </Nav>
