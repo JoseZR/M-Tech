@@ -25,6 +25,7 @@ jobs:
         port: 21        
         server-dir: /MTech/
         local-dir: ./dist/
+        dry-run: true
         exclude: |
           **/.git*
           **/.git*/**
