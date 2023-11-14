@@ -20,7 +20,7 @@ export function Footer () {
       <Container>
         <Row className='text-center px-4'>
           <div className='footer-socialmedia my-1'>
-            <strong><h4 className='pt-4'>REDES SOCIALES</h4></strong>
+            <strong><h4 className='pt-5'>REDES SOCIALES</h4></strong>
             <a href='https://www.facebook.com/profile.php?id=100093439748711' target='_blank' rel='noreferrer'>
               <svg role='img' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
                 <title>Facebook</title>
