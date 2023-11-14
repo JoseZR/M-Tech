@@ -23,7 +23,7 @@ jobs:
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
         port: 21        
-        server-dir: /MTech
+        server-dir: /MTech/
         local-dir: ./dist/
         exclude: |
           **/.git*
