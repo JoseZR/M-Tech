@@ -1,20 +1,20 @@
 const galleryCortazar2022 = [
-  '/MTech/gallery/2022/cortazar/cortazar_2022_1.webp',
-  '/MTech/gallery/2022/cortazar/cortazar_2022_2.webp',
-  '/MTech/gallery/2022/cortazar/cortazar_2022_3.webp',
-  '/MTech/gallery/2022/cortazar/cortazar_2022_4.webp',
-  '/MTech/gallery/2022/cortazar/cortazar_2022_5.webp',
-  '/MTech/gallery/2022/cortazar/cortazar_2022_6.webp',
-  '/MTech/gallery/2022/cortazar/cortazar_2022_7.webp',
-  '/MTech/gallery/2022/cortazar/cortazar_2022_8.webp',
-  '/MTech/gallery/2022/cortazar/cortazar_2022_9.webp',
-  '/MTech/gallery/2022/cortazar/cortazar_2022_10.webp',
-  '/MTech/gallery/2022/cortazar/cortazar_2022_11.webp',
-  '/MTech/gallery/2022/cortazar/cortazar_2022_12.webp',
-  '/MTech/gallery/2022/cortazar/cortazar_2022_13.webp',
-  '/MTech/gallery/2022/cortazar/cortazar_2022_14.webp',
-  '/MTech/gallery/2022/cortazar/cortazar_2022_15.webp',
-  '/MTech/gallery/2022/cortazar/cortazar_2022_16.webp'
+  '/MTech/gallery/2022/cortazar/cortazar_2022-1.webp',
+  '/MTech/gallery/2022/cortazar/cortazar_2022-2.webp',
+  '/MTech/gallery/2022/cortazar/cortazar_2022-3.webp',
+  '/MTech/gallery/2022/cortazar/cortazar_2022-4.webp',
+  '/MTech/gallery/2022/cortazar/cortazar_2022-5.webp',
+  '/MTech/gallery/2022/cortazar/cortazar_2022-6.webp',
+  '/MTech/gallery/2022/cortazar/cortazar_2022-7.webp',
+  '/MTech/gallery/2022/cortazar/cortazar_2022-8.webp',
+  '/MTech/gallery/2022/cortazar/cortazar_2022-9.webp',
+  '/MTech/gallery/2022/cortazar/cortazar_2022-10.webp',
+  '/MTech/gallery/2022/cortazar/cortazar_2022-11.webp',
+  '/MTech/gallery/2022/cortazar/cortazar_2022-12.webp',
+  '/MTech/gallery/2022/cortazar/cortazar_2022-13.webp',
+  '/MTech/gallery/2022/cortazar/cortazar_2022-14.webp',
+  '/MTech/gallery/2022/cortazar/cortazar_2022-15.webp',
+  '/MTech/gallery/2022/cortazar/cortazar_2022-16.webp'
 ]
 
 const galleryDolores2022 = [
