@@ -23,8 +23,8 @@ export function Menu () {
             <Offcanvas.Body className='ms-auto'>
               <Nav className='justify-content-end flex-grow-1 pe-5'>
                 <NavDropdown title='GALERIA' renderMenuOnMount disable>
-                  <NavDropdown.Item as={Link} to='gallery2023' onClick={handleClose}>EDICION 2023</NavDropdown.Item>
-                  <NavDropdown.Item as={Link} to='gallery2022' onClick={handleClose}>EDICION 2022</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to='gallery2023' onClick={handleClose}>EDICIÓN 2023</NavDropdown.Item>
+                  <NavDropdown.Item as={Link} to='gallery2022' onClick={handleClose}>EDICIÓN 2022</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link className='options' href='https://igeco.mx/history' target='_blank'>¿QUIÉNES SOMOS?</Nav.Link>
                 <Nav.Link className='options' href='https://hfmexico.mx' target='_blank'>NUESTROS EVENTOS</Nav.Link>
