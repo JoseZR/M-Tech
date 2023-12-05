@@ -134,4 +134,32 @@ const BestMoments = [
   '/MTech/gallery/2023/silao/silao_13.webp'
 ]
 
-export { galleryCortazar2022, galleryDolores2022, galleryIrapuato2022, galleryLeon2022, galleryCortazar2023, galleryDolores2023, gallerySilao2023, BestMoments }
+const galleryLeon2023 = [
+  '/Mtech/gallery/2023/leon/leon_1.webp',
+  '/Mtech/gallery/2023/leon/leon_2.webp',
+  '/Mtech/gallery/2023/leon/leon_3.webp',
+  '/Mtech/gallery/2023/leon/leon_4.webp',
+  '/Mtech/gallery/2023/leon/leon_5.webp',
+  '/Mtech/gallery/2023/leon/leon_6.webp',
+  '/Mtech/gallery/2023/leon/leon_7.webp',
+  '/Mtech/gallery/2023/leon/leon_8.webp',
+  '/Mtech/gallery/2023/leon/leon_9.webp',
+  '/Mtech/gallery/2023/leon/leon_10.webp',
+  '/Mtech/gallery/2023/leon/leon_11.webp',
+  '/Mtech/gallery/2023/leon/leon_12.webp',
+  '/Mtech/gallery/2023/leon/leon_13.webp',
+  '/Mtech/gallery/2023/leon/leon_14.webp',
+  '/Mtech/gallery/2023/leon/leon_15.webp',
+  '/Mtech/gallery/2023/leon/leon_16.webp',
+  '/Mtech/gallery/2023/leon/leon_17.webp',
+  '/Mtech/gallery/2023/leon/leon_18.webp',
+  '/Mtech/gallery/2023/leon/leon_19.webp',
+  '/Mtech/gallery/2023/leon/leon_20.webp',
+  '/Mtech/gallery/2023/leon/leon_21.webp',
+  '/Mtech/gallery/2023/leon/leon_22.webp',
+  '/Mtech/gallery/2023/leon/leon_23.webp',
+  '/Mtech/gallery/2023/leon/leon_24.webp',
+  '/Mtech/gallery/2023/leon/leon_25.webp'
+]
+
+export { galleryCortazar2022, galleryDolores2022, galleryIrapuato2022, galleryLeon2022, galleryCortazar2023, galleryDolores2023, gallerySilao2023, galleryLeon2023, BestMoments }
